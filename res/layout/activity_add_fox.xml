@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AddFoxActivity" 
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+    	<EditText android:id="@+id/name_input"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="@string/name_input" 
+    	android:paddingTop="100dp"
+    	android:paddingBottom="15dp"/>
+	</RelativeLayout>
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/button_photo"
+    android:onClick="getFoxPhoto" />   
+    
+	<RelativeLayout
+	android:layout_width="match_parent"
+	android:layout_weight="1"
+   	android:layout_height="0dp">
+    	<Button
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/button_save"
+    	android:onClick="saveFox" 
+    	android:layout_alignParentBottom = "true"/>  
+	</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Foxes with Friends</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button_new">New</string>
+    <string name="button_photo">Choose a photo</string>
+    <string name="button_save">Save</string>
+    <string name="name_input">Name your fox</string>
+    <string name="title_activity_fox_list_fragment">Current foxes</string>
+    <string name="title_activity_add_fox">Add a fox</string>
+
+</resources>
