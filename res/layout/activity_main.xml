@@ -3,7 +3,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:background="#EEE"
     android:orientation="vertical" >
+    
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp" >
+    
+	    <TextView
+	    android:id="@+id/personal_msg"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="18sp"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="4dp"/>
+	    
+	    <Button    	
+	    android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:text="@string/log_out"
+	    android:onClick="logOut"
+	    android:layout_alignParentRight="true"/>
+    
+    </RelativeLayout>
     
     <fragment 
     android:name="com.facebook.android.foxeswithfriends.FoxListFragment"
@@ -19,7 +44,9 @@
     	android:layout_width="match_parent"
     	android:layout_height="wrap_content"
     	android:text="@string/button_new"
-    	android:onClick="addFox"/>   
+    	android:onClick="addFox"
+    	android:layout_marginLeft="12dp"
+    	android:layout_marginRight="12dp"/>   
       
 </LinearLayout>
 

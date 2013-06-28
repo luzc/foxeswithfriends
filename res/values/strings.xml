@@ -9,5 +9,14 @@
     <string name="name_input">Name your fox</string>
     <string name="title_activity_fox_list_fragment">Current foxes</string>
     <string name="title_activity_add_fox">Add a fox</string>
+    <string name="title_activity_login">Log in to see some foxes!</string>
+    <string name="user_name">username</string>
+    <string name="password">password</string>
+    <string name="log_in_with_parse">log in</string>
+    <string name="log_out">log out</string>
+    <string name="sign_up">sign up</string>
+    <string name="app_id">your facebook app id</string>
+    <string name="parse_app_id">your parse app id</string>
+    <string name="parse_client_key">your parse client key</string>
 
 </resources>
